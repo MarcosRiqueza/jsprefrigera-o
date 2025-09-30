@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSP Lavadoras & Refrigeração - Técnicos Júnior e Dione</title>
+    <meta name="description" content="Conserto e manutenção de ar-condicionado, geladeira, máquina de lavar, micro-ondas e lava e seca em Cabreúva e região.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    
+    <a href="https://wa.me/5511973807248?text=Olá! Gostaria de solicitar um orçamento." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>JSP Lavadoras</h2>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Conserto e Manutenção de Eletrodomésticos</h1>
+            <p>Serviço especializado com garantia e qualidade em Cabreúva e região</p>
+            <a href="https://wa.me/5511973807248?text=Olá! Gostaria de solicitar um orçamento." class="btn-whatsapp" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
+            </a>
+        </div>
+
+    </section>
+        <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre Nós</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>Há 10 anos no mercado, a <strong>JSP Lavadoras</strong> oferece serviços de conserto e manutenção de eletrodomésticos com qualidade e garantia. Nossos técnicos <strong>Júnior e Dione</strong> são especializados e possuem experiência para resolver seu problema com eficiência.</p>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <i class="fas fa-tools"></i>
+                            <span>Conserto rápido e garantido</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-cog"></i>
+                            <span>Peças originais</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-truck"></i>
+                            <span>Atendimento em domicílio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    
+                    <img src="imagens/Junior  JSP Refrigeração 2.jpg" alt="Técnico Júnior e Dione">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<section id="servicos" class="servicos">
+    <div class="container">
+        <h2 class="section-title">Nossos Serviços</h2>
+        <div class="servicos-grid">
+            <!--Ar CONDICIONADONADO -->
+            <div class="servico-item">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipMFzi-2vKzT8Jvrx4qRgyk7qrKEefgehdUxMqVi=s680-w680-h510-rw" alt="Conserto de Ar Condicionado">
+                <h3>Ar Condicionado</h3>
+                <p>Instalação, limpeza e reparos em geral</p>
+            </div>
+
+            <!-- GELADEIRA -->
+            <div class="servico-item">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipOYwsfCqPZYLNjmh0dEg6yNOcjbNvYVO8RXQhYA=s680-w680-h510-rw" alt="Conserto de Geladeira">
+                <h3>Geladeiras</h3>
+                <p>Conserto e manutenção de geladeiras e freezers</p>
+            </div>
+
+            <!-- MÁQUINA DE LAVAR -->
+            <div class="servico-item">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipN-LHP4jveJmx7rSRQXqvBVHV5WO_hrsPfUXKx0=s680-w680-h510-rw" alt="Conserto de Máquina de Lavar">
+                <h3>Máquinas de Lavar</h3>
+                <p>Reparos em lavadoras de todas as marcas</p>
+            </div>
+
+            <!-- MICRO-ONDAS -->
+            <div class="servico-item">
+                <img src="https://st3.depositphotos.com/10614052/35365/i/450/depositphotos_353658592-stock-photo-worker-repairing-microwave-oven-kitchen.jpg" alt="Conserto de Micro-ondas">
+                <h3>Micro-ondas</h3>
+                <p>Conserto e manutenção de fornos micro-ondas</p>
+            </div>
+
+            <!-- LAVA E SECA -->
+            <div class="servico-item">
+                <img src="https://img.freepik.com/vetores-premium/maquete-de-maquina-de-lavar-roupa-isolada-no-fundo-branco-maquina-de-lavar-de-vetor-3d-realista-moderna-com-porta-aberta-llustration-de-eletrodomesticos-vista-frontal-closeup_545793-1116.jpg?semt=ais_incoming&w=740&q=80" alt="Conserto de Lava e Seca">
+                <h3>Lava e Seca</h3>
+                <p>Especialista em lavadoras e secadoras</p>
+            </div>
+        </div>
+    </div>
+</section>
+                
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <h3>Informações de Contato</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>R. Francisco Nunes, 592 - Jacaré, Cabreúva - SP, 13318-142</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(11) 97380-7248</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Seg a Sex: 9h às 17h30 | Sábado: 9h às 12h</p>
+                    </div>
+                    <div class="social-links">
+                        <div class="social-links">
+    <a href="https://www.facebook.com/jsp.lavadoras" target="_blank">
+        <i class="fab fa-facebook"></i>
+    </a>
+        </a>
+    <a href="https://wa.me/5511973807248" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+                </div>
+                <div class="contato-form">
+                    <h3>Envie uma Mensagem</h3>
+                    <!-- FORMULÁRIO COM FORMSUBMIT -->
+                    <form action="https://formsubmit.co/seu-email@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="Novo contato - JSP Lavadoras">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="name" placeholder="Seu nome" required>
+                        <input type="email" name="email" placeholder="Seu e-mail" required>
+                        <input type="tel" name="phone" placeholder="Seu telefone">
+                        <textarea name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mapa -->
+    <div class="mapa">
+        <div id="map"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 JSP Lavadoras & Refrigeração - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
